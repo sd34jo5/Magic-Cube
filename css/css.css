@@ -859,7 +859,6 @@ body {
 .section3 .content1 {
     padding-left: calc(192 / 1920 * 100vw);
     position: relative;
-    margin-bottom: calc(170 / 1920 * 100vw);
 }
 
 .section3 .content1 .imgbox {
