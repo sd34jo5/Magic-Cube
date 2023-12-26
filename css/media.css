@@ -1,0 +1,925 @@
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 992px) {
+    .wap_nav {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        z-index: 7777;
+    }
+
+    .wap_nav .logo {
+        float: left;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .wap_nav .logo img {
+        height: 24px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+
+    body {
+        /* padding-top: 50px; */
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .wap {
+        display: block;
+    }
+
+    .section1 {
+        /* Your styles for the .section1 container here */
+        padding-bottom: calc(120 / 992*100vw);
+    }
+
+    .section1 .right {
+        /* Your styles for the .right container here */
+        position: relative;
+    }
+
+    .section1 .right .d1 {
+        /* Your styles for the .d1 image here */
+        width: calc(530 / 992*100vw);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -o-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+
+    .section1 .right .d2 {
+        /* Your styles for the .d2 image here */
+        width: 100%;
+    }
+
+    .section1 .left {
+        /* Your styles for the .left container here */
+        margin-left: 0;
+        padding-top: 5vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section1 .left .title {
+        /* Your styles for the .title element here */
+        font-size: calc(106 / 992*100vw);
+        line-height: calc(117 / 992*100vw);
+    }
+
+    .section1 .left .dec {
+        /* Your styles for the .dec element here */
+        font-size: calc(24 / 992*100vw);
+        line-height: calc(33 / 992*100vw);
+        padding-top: calc(41 / 992*100vw);
+        padding-bottom: calc(47 / 992*100vw);
+        width: 100%;
+    }
+
+    .section1 .left .dec p {
+        /* Your styles for the <p> elements inside .dec here */
+        padding-bottom: calc(30 / 992*100vw);
+    }
+
+    .section1 .left .link {
+        /* Your styles for the .link element here */
+    }
+
+    .section1 .left .link a {
+        /* Your styles for the <a> elements inside .link here */
+        width: calc(233 / 992*100vw);
+        line-height: calc(64 / 992*100vw);
+        border-radius: calc(29 / 992*100vw);
+        margin-right: calc(15 / 992*100vw);
+        font-size: calc(22 / 992*100vw);
+        padding-left: calc(83 / 992*100vw);
+        margin-bottom: 3vw;
+    }
+
+    .section1 .left .link a span {
+        /* Your styles for the <span> elements inside <a> inside .link here */
+    }
+
+    .section1 .left .link a span img {
+        /* Your styles for the <img> elements inside <span> inside <a> inside .link here */
+        left: calc(26 / 992*100vw);
+        top: calc(14 / 992*100vw);
+        max-width: calc(36 / 992*100vw);
+    }
+
+    /* Section2 styles */
+    .section2 {
+        /* Your styles for the .section2 container here */
+        height: auto;
+    }
+
+    .section2 .right {
+        /* Your styles for the .right container here */
+        float: none;
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+
+    .section2 .right img {
+        width: 100%;
+        /* display: block; */
+        /* margin: auto; */
+    }
+
+    /* Section2 styles */
+    .section2 .right .i2 {
+        /* Your styles for the .d2 image here */
+        width: 100%;
+        position: static;
+        -o-transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        transform: none;
+        display: block;
+    }
+
+    .section2 .right .i1 {
+        /* Your styles for the .d1 image here */
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -o-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        z-index: 3;
+        padding: 0px 11vw;
+    }
+
+    .section2 .right .d2 {
+    }
+
+    .section2 .left {
+        /* Your styles for the .left container here */
+        float: none;
+        width: calc(517 / 992*100vw);
+        margin: auto;
+        margin-top: 0;
+        padding-bottom: 14vw;
+    }
+
+    .section2 .left .title1 {
+        /* Your styles for the .title1 element here */
+        line-height: calc(132 / 992*100vw);
+        background: url(../images/cir1.png) no-repeat center center;
+        background-size: 100% 100%;
+        font-size: calc(58 / 992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000000;
+    }
+
+    .section2 .left .title2 span {
+        font-size: calc(188 / 992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #000000;
+        background: linear-gradient(0deg,#6B46FC 0%,#D023F5 50%,#F0278E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: block;
+        line-height: calc(302 / 992*100vw);
+    }
+
+    .section2 .left .title2 {
+        /* Your styles for the .title2 element here */
+        margin-top: calc(28 / 992*100vw);
+        background: url(../images/cir2.png) no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+    /* Section3 styles */
+    .section3 {
+        /* Your styles for the .section3 container here */
+    }
+
+    /* Content1 styles */
+    .section3 .content1 {
+        /* Your styles for the .content1 container here */
+        padding-left: calc(192 / 992*100vw);
+        position: relative;
+        margin-bottom: calc(280 / 992*100vw);
+    }
+
+    /* Section3 styles */
+    .section3 {
+        /* Your styles for the .section3 container here */
+    }
+
+    /* Content1 styles */
+    .section3 .content1 {
+        /* Your styles for the .content1 container here */
+        padding-left: 15px;
+        margin-bottom: 6vw;
+        padding-right: 15px;
+    }
+
+    .section3 .content1 .imgbox {
+        top: 30%;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%,-50%);
+    }
+
+    .section3 .content1 .imgbox img {
+        /* Your styles for the <img> element inside .imgbox inside .content1 here */
+        width: calc(750 / 992*100vw);
+    }
+
+    .section3 .content1 .text {
+        /* Your styles for the .text container inside .content1 here */
+        padding-top: calc(780 / 992*100vw);
+        text-align: left;
+    }
+
+    .section3 .content1 .text .title {
+        width: calc(916 / 1920 * 100vw);
+        font-size: calc(70 / 1920 * 100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: 500;
+        color: #dfd6d6;
+        line-height: calc(33 / 1920 * 100vw);
+        padding-top: calc(25 / 1920 * 100vw);
+    }
+
+    .section3 .content1 .text .dec {
+        width: 96%;
+        font-size: calc(24 / 992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: 500;
+        color: #b8b1b1;
+        line-height: calc(33 / 992*100vw);
+        padding-top: calc(30 / 992*100vw);
+        text-align: left;
+    }
+
+    .section3 .content1 .text .dec p {
+        /* Your styles for the <p> elements inside .dec inside .text inside .content1 here */
+        padding-bottom: calc(30 / 992*100vw);
+    }
+
+    /* Content2 styles */
+    .section3 .content2 {
+        width: 96%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .section3 .content2 .item1 {
+        height: calc(430 / 992*100vw);
+        background: url("../images/c2-h.png") no-repeat center;
+        background-size: contain;
+    }
+    
+    .section3 .content2 .item2 {
+        margin-top: 0;
+        height: calc(430 / 992*100vw);
+        background: url("../images/c3-h.png") no-repeat center;
+        background-size: contain;
+    }
+
+
+    /* solid */
+    .section3 .scale-slides {
+        padding: 0 calc(192 / 1920 * 100vw);
+        overflow: hidden;
+    }
+    .section3 .scale-slides {
+        display: none;
+    }
+
+    .mobile-warp {
+        display: block;
+        width: 96%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .mobile-warp .moaa {
+        overflow: hidden;
+    }
+    .mobile-warp .moaa .swiper-wrapper {
+        height: calc(750 / 1920 * 100vw);
+    }
+    .mobile-warp .swiper-slide {
+        text-align: center;        
+    }
+    .mobile-warp .swiper-slide img {
+        width: 100%;
+        cursor: pointer;
+    }
+    .swiper-container-vertical>.swiper-pagination-bullets {
+        top: auto;
+        bottom: -30px;
+        left: 0;
+        height: 20px;
+    }
+    .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+        display: inline-block;
+    }
+    .mobile-warp .swiper-pagination .swiper-pagination-bullet{
+        width: 8px;
+        height: 8px;
+        background: #5f5669;
+        margin: 0 4px;
+    }
+    .mobile-warp .swiper-pagination .swiper-pagination-bullet-active {
+        background: #fff;
+    }
+
+    /* Content3 styles */
+    .section3 .content3 {
+        /* Your styles for the .content3 container here */
+        margin-top: 30vw;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: calc(344/992*100vw);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: calc(102/992*100vw);
+        margin-bottom: calc(98/992*100vw);
+    }
+
+    .section3 .content3 .topImg {
+        /* Your styles for the .topImg container inside .content3 here */
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: calc(-181/992*100vw);
+    }
+
+    .section3 .content3 .topImg .lefticon {
+        /* Your styles for the .lefticon image inside .topImg inside .content3 here */
+        width: 36vw;
+        margin-left: calc(36/992*100vw);
+        float: left;
+    }
+
+    .section3 .content3 .topImg .title {
+        /* Your styles for the .title element inside .topImg inside .content3 here */
+        font-size: calc(134/992*100vw);
+        line-height: 1;
+        margin-top: calc(95/992*100vw);
+        margin-left: calc(146/992*100vw);
+    }
+
+    .section3 .content3 .topImg .righticon {
+        /* Your styles for the .righticon image inside .topImg inside .content3 here */
+        position: absolute;
+        width: calc(440/992*100vw);
+        right: 0;
+        bottom: 0;
+    }
+
+    .section3 .content3 .content {
+        /* Your styles for the .content container inside .content3 here */
+        padding-top: 7vw;
+    }
+
+    .section3 .content3 .content .dec {
+        /* Your styles for the .dec element inside .content inside .content3 here */
+        font-size: calc(24/992*100vw);
+        font-family: Barlow;
+        font-weight: 500;
+        color: #7A7A7A;
+        line-height: calc(33/992*100vw);
+        padding-bottom: calc(30/992*100vw);
+    }
+
+    .section3 .content3 .content .dec p {
+        /* Your styles for the <p> elements inside .dec inside .content inside .content3 here */
+        padding-bottom: calc(30/992*100vw);
+    }
+
+    .section3 .content3 .content .link:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* .link styles inside .content inside .content3 */
+    .section3 .content3 .content .link {
+        /* Your styles for the .link container inside .content inside .content3 here */
+    }
+
+    .section3 .content3 .content .link a {
+        /* Your styles for the <a> elements inside .link inside .content inside .content3 here */
+        width: calc(265/992*100vw);
+        line-height: calc(96/992*100vw);
+        background: linear-gradient(90deg,#6848d2,#582aa9,#af569a);
+        border-radius: calc(29/992*100vw);
+        float: left;
+        margin-right: calc(57/992*100vw);
+        text-align: center;
+        font-size: calc(42/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+
+    .section3 .content3 .content .link a:nth-child(2) {
+        background: linear-gradient(90deg,#4600F9,#A200F1,#E500EC);
+    }
+
+    /* .section4 styles */
+    .section4 {
+        /* Your styles for the .section4 container here */
+        padding-bottom: calc(251/992*100vw);
+    }
+
+    .section4 .titlemodel {
+        /* Your styles for the .titlemodel element here */
+        font-size: calc(114/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #3357F9;
+        line-height: calc(126/992*100vw);
+        background: linear-gradient(45deg,#a84dca 0%,#8a6cd2 32.2021484375%,#2fccf0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+
+    .section4 .content {
+        /* Your styles for the .content container here */
+        padding-top: calc(93/992*100vw);
+    }
+
+    .section4 .content .left {
+        /* Your styles for the .left container inside .content here */
+        background: url(../images/section4bg.png) no-repeat center center;
+        background-size: 100% 100%;
+        float: none;
+        width: 100%;
+        height: calc(518/992*100vw);
+        position: relative;
+    }
+
+    .section4 .content .left img {
+        /* Your styles for the <img> element inside .left inside .content here */
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: calc(700/992*100vw);
+    }
+
+    .section4 .content .right {
+        /* Your styles for the .right container inside .content here */
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        padding: 15px;
+        padding-top: 11vw;
+    }
+
+    .section4 .content .right .swiper-container {
+        /* Your styles for the .swiper-container element inside .right inside .content here */
+    }
+
+    .section4 .content .right .swiper-container .swiper-wrapper {
+        /* Your styles for the .swiper-wrapper element inside .swiper-container inside .right inside .content here */
+    }
+
+    .section4 .content .right .swiper-container .swiper-wrapper .swiper-slide {
+        /* Your styles for the .swiper-slide elements inside .swiper-wrapper inside .swiper-container inside .right inside .content here */
+    }
+
+    .section4 .content .right .swiper-container .swiper-wrapper .swiper-slide .text {
+        /* Your styles for the .text container inside .swiper-slide inside .swiper-wrapper inside .swiper-container inside .right inside .content here */
+        display: flex;
+        align-items: center;
+    }
+
+    .section4 .content .right .swiper-container .swiper-wrapper .swiper-slide .text .num {
+        /* Your styles for the .num element inside .text inside .swiper-slide inside .swiper-wrapper inside .swiper-container inside .right inside .content here */
+        font-size: calc(199/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+        line-height: calc(220/992*100vw);
+        background: linear-gradient(90deg,#a84eca 0%,#a84eca 32.2021484375%,#3ac0ec 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        font-style: italic;
+        margin-right: calc(59/992*100vw);
+    }
+
+    .section4 .content .right .swiper-container .swiper-wrapper .swiper-slide .text .dec {
+        /* Your styles for the .dec element inside .text inside .swiper-slide inside .swiper-wrapper inside .swiper-container inside .right inside .content here */
+        width: calc(573/992*100vw);
+        font-size: calc(24/992*100vw);
+        font-family: Barlow;
+        font-weight: 500;
+        color: #7A7A7A;
+        line-height: calc(33/992*100vw);
+    }
+
+    .section4 .content .right .swiper-container .swiper-wrapper .swiper-slide .more {
+        /* Your styles for the .more link inside .swiper-slide inside .swiper-wrapper inside .swiper-container inside .right inside .content here */
+        display: block;
+        margin: auto;
+        margin-top: calc(190/992*100vw);
+        width: calc(365/992*100vw);
+        line-height: calc(96/992*100vw);
+        background: linear-gradient(90deg,#6848d2,#582aa9,#af569a);
+        border-radius: calc(29/992*100vw);
+        text-align: center;
+        font-size: calc(42/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+
+    .section4 .content .right .swiper-container .swiper-pagination * {
+        width: calc(38/992*100vw);
+        height: calc(38/992*100vw);
+        background: #FFFFFF;
+        box-shadow: 0px calc(7/992*100vw) 0px 0px rgba(0,0,0,0.27);
+        border-radius: calc(19/992*100vw);
+        margin: 0px calc(40/992*100vw);
+    }
+
+    .section4 .content .right .swiper-container .swiper-pagination *.swiper-pagination-bullet-active {
+        background: linear-gradient(90deg,#6848d2,#582aa9,#af569a);
+        box-shadow: 0px calc(7/992*100vw) 0px 0px rgba(0,0,0,0.27);
+        border-radius: calc(19/992*100vw);
+    }
+
+    .section4 .content .right .swiper-container .swiper-pagination {
+        /* Your styles for the .swiper-pagination element inside .swiper-container inside .right inside .content here */
+        bottom: calc(170/992*100vw);
+    }
+
+    /* .section5 styles */
+    .section5 {
+        padding-bottom: calc(180/992*100vw);
+    }
+
+    .titlemodel {
+        font-size: calc(150/1920*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #fff;
+        text-align: center;
+        padding-top: calc(200/1920*100vw);
+    }
+
+    .section5 .content {
+        /* Your styles for the .content container here */
+        padding-top: calc(140/992*100vw);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .section5 .content .left {
+        /* Your styles for the .left container inside .content here */
+        width: calc(901/992*100vw);
+        float: left;
+    }
+
+    .section5 .content .left .cont1 {
+        /* Your styles for the .cont1 container inside .left inside .content here */
+        background: #FFFFFF;
+        border-radius: calc(50/992*100vw);
+        text-align: center;
+        zoom:1;overflow: hidden;
+        padding-top: calc(56/992*100vw);
+        padding-bottom: calc(10/992*100vw);
+    }
+
+    .section5 .content .left .cont1 ul {
+        /* Your styles for the <ul> element inside .cont1 inside .left inside .content here */
+    }
+
+    .section5 .content .left .cont1 ul li:nth-child(7) .s1 {
+        font-size: calc(19/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #3357F9;
+        line-height: calc(19/992*100vw);
+    }
+
+    .section5 .content .left .cont1 ul li {
+        /* Your styles for the <li> elements inside .cont1 ul inside .left inside .content here */
+        float: left;
+        width: 50%;
+        padding-bottom: calc(71/992*100vw);
+    }
+
+    .section5 .content .left .cont1 ul li .s1 {
+        /* Your styles for the .s1 div elements inside .cont1 ul li inside .left inside .content here */
+        font-size: calc(40/992*100vw);
+    }
+
+    .section5 .content .left .cont1 ul li .s2 {
+        /* Your styles for the .s2 div elements inside .cont1 ul li inside .left inside .content here */
+        font-size: calc(34/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #7E7E7F;
+        line-height: calc(33/992*100vw);
+        padding-top: calc(28/992*100vw);
+    }
+
+    .section5 .content .left .cont2 {
+        /* Your styles for the .cont2 container inside .left inside .content here */
+        height: calc(136/992*100vw);
+        
+        border-radius: calc(50/992*100vw);
+        margin-top: calc(44/992*100vw);
+        position: relative;
+        padding: calc(34/992*100vw) calc(44/992*100vw);
+    }
+
+    .section5 .content .left .cont2 .words {
+        /* Your styles for the .words input element inside .cont2 inside .left inside .content here */
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: none;
+        font-size: calc(26/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #7E7E7F;
+        padding-right: calc(142/992*100vw);
+    }
+
+    .section5 .content .left .cont2 .send {
+        /* Your styles for the .send input element inside .cont2 inside .left inside .content here */
+        position: absolute;
+        right: calc(44/992*100vw);
+        top: calc(34/992*100vw);
+        width: calc(130/992*100vw);
+        height: calc(68/992*100vw);
+        line-height: calc(68/992*100vw);
+        background: linear-gradient(90deg,#6848d2,#582aa9,#af569a);
+        border-radius: calc(29/992*100vw);
+        border: none;
+        font-size: calc(29/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+
+    .section5 .content .right img {
+        width: calc(440/992*100vw);
+    }
+
+    .section5 .content .right {
+        float: none;
+        position: relative;
+        text-align: center;
+        padding-top: 10vw;
+        clear: both;
+    }
+
+
+    .section7 {
+        overflow: hidden;
+        padding-top: calc(200/1920*100vw);
+    }
+    
+    .section7 .title_v7 {
+        font-size: calc(120/1920*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #fff;
+        text-align: center;
+        padding-bottom: calc(120/1920*100vw);
+    }
+
+    .section7 .content_v7 {
+        /* Your styles for the .content container here */
+        padding: 0px 15px;
+        display: block;
+        padding-bottom: calc(222/992*100vw);
+    }
+
+    .section7 .content_v7 .left {
+        width: 100%;
+        padding-top: 5vw;
+        border-top: 1px solid #fff;
+    }
+
+    .section7 .content_v7 .left .dec {
+        /* Your styles for the .dec container inside .left inside .content here */
+        font-size: calc(30/992*100vw);
+        font-family: AkzidenzGroteskBQ;
+        font-weight: normal;
+        color: #878787;
+        line-height: 1.5;
+    }
+
+    .section7 .content_v7 .left .dec p:last-child {
+        padding: 0px;
+    }
+
+    .section7 .content_v7 .left .dec p {
+        /* Your styles for the <p> elements inside .dec inside .left inside .content here */
+        padding-bottom: calc(45/992*100vw);
+    }
+
+
+    .pc_6 .pc_6_img {
+        display: none;
+    }
+    .pc_6 .mobile_6_img {
+        display: block;
+    }
+
+
+    .index >*:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Footer styles */
+    .footer {
+        /* Your styles for the .footer container here */
+        background: url("../images/footer2.png") no-repeat right center;
+        background-size: cover;
+        zoom:1;overflow: hidden;
+        padding-bottom: calc(157/992*100vw);
+    }
+
+    .footer .content {
+        position: absolute;
+        bottom: calc(140/1920*100vw);
+        margin: 0 auto;
+        display: flex;
+        width: 90%;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .footer .content .item-i {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .content .item-i img{
+        height: calc(120/992*100vw);
+    }
+
+    .head {
+        position: static;
+    }
+
+    .head .more {
+        margin-right: calc(175/ 992*100vw);
+        margin-top: calc(92/ 992*100vw);
+        width: calc(216/ 992*100vw);
+        line-height: calc(57/ 992*100vw);
+        border-radius: calc(235 / 992*100vw);
+        font-size: calc(24 / 992*100vw);
+        position: fixed;
+        right: 0;
+        top: 0px;
+        z-index: 777;
+    }
+
+    .switch {
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 40px;
+        z-index: 999;
+        background: url(../images/menu.png) no-repeat center center;
+        background-size: 100%;
+        margin-right: calc(92/ 992*100vw);
+        margin-top: calc(92/ 992*100vw);
+        width: calc(57/ 992*100vw);
+        height: calc(57/ 992*100vw);
+    }
+
+    .wapLogo {
+    }
+
+    .wapLogo img {
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        /* width: 40px; */
+        z-index: 99999;
+        background-size: 100%;
+        left: calc(80/ 992*100vw);
+        margin-top: calc(61/ 992*100vw);
+        height: calc(116/ 992*100vw);
+    }
+
+    .wapMenu {
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        background: url(../images/menubg.png) no-repeat left top #ffffffd4;
+        background-size: 61%;
+        left: 0;
+        width: 80%;
+        height: 100vh;
+    }
+
+    .wapMenu .menu {
+        margin-right: calc(92/ 992*100vw);
+        margin-top: calc(92/ 992*100vw);
+        width: calc(57/ 992*100vw);
+        height: calc(57/ 992*100vw);
+        position: absolute;
+        right: 0;
+        top: 0px;
+        background: url(../images/close.png) no-repeat center center;
+        background-size: 100%;
+    }
+
+    .wapMenu .slide {
+        padding-top: calc(344/992*100vw);
+        height: 100vh;
+        overflow: auto;
+    }
+
+    .wapMenu .slide li {
+    }
+
+    .wapMenu .slide li .h2tit {
+    }
+
+    .wapMenu .slide li .h2tit a {
+        display: block;
+        padding-left: calc(111/992*100vw);
+        font-size: calc(38/992*100vw);
+        line-height: calc(71/992*100vw);
+        margin-bottom: calc(62/992*100vw);
+        color: #7F7F7F;
+        font-weight: normal;
+    }
+
+    .wapMenu .slide li .h2tit a.current .title {
+        color: #3F61F9;
+    }
+
+    .wapMenu .slide li .h2tit a.current .icon {
+        background: linear-gradient(134deg, #2047FA, #4C6BF9, #C0CAFB);
+    }
+
+    .wapMenu .slide li .h2tit a .icon {
+        display: inline-block;
+        width: calc(71/992*100vw);
+        height: calc(71/992*100vw);
+        background: linear-gradient(134deg, rgba(44,45,49,0.5), rgba(27,28,30,0.5), rgba(13,14,16,0.5));
+        border-radius: 50%;
+        position: relative;
+        vertical-align: middle;
+        margin-right: calc(45/992*100vw);
+    }
+
+    .wapMenu .slide li .h2tit a .icon img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -o-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        max-width: 54%;
+    }
+
+    .wapMenu .slide li .h2tit a .title {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .wapMenu {
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        transition: all 0.4s;
+        left: -100vw;
+    }
+
+    .wapMenu.current {
+        left: 0;
+    }
+}
